@@ -2,11 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *main - Entry point
- *
- *Retur: 0
-**/
+/**
+* main - this is the main function
+* Return: always will be 0
+*/
 
 int main(void)
 {
