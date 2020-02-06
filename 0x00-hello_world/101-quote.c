@@ -3,6 +3,8 @@
 /**
  * main -- Entry point
  *
+ * Descripcion:  out quote
+ *
  * Return: 1
  */
 
