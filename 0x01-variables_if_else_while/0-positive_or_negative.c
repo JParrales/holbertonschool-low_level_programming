@@ -1,14 +1,15 @@
-#include <stdlib.h>
+nclude <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 
 /*
- * main - Entry point
- *
- * Retur: 0 
- **/
-int main(void)
+ *  * main - Entry point
+ *   *
+ *    * Retur: 0 
+ *     **/
+
+int main()
 {
 	int n;
 
@@ -17,15 +18,15 @@ int main(void)
 
 	if(n>0)
 	{
-		printf("%lu is positive");
+		printf("%d is positive", n);
 	}
 	else if (n<0)
 	{
-		printf("%lu is negative");
+		printf("%d is negative", n);
 	}
 	else
 	{
-		pritnf("%d is zero");
-	}
+	    	printf("%d is zero", n);
+ 	}
 	return (0);
 }
