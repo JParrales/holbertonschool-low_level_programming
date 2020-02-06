@@ -1,5 +1,4 @@
-  
-nclude <stdlib.h>
+#include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
@@ -12,7 +11,7 @@ nclude <stdlib.h>
 int main(void)
 {	int n;
 
-	sand(time(0));
+	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
