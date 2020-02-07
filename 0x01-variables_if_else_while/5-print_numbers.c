@@ -8,6 +8,12 @@
 
 int main(void)
 {
-printf('0123456789\n');
+int n;
+
+for (n = 0; n < 10; n++)
+printf("%i", n);
+
+printf("\n");
+
 return (0);
 }
