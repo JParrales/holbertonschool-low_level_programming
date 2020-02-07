@@ -8,11 +8,6 @@
 
 int main(void)
 {
-int a;
-
-for (a = 48; a <= 57; a++)
-putchar(a);
-
-putchar('\n');
+printf('0123456789\n');
 return (0);
 }
