@@ -1,4 +1,10 @@
 #include "holberton.h"
+#include <string.h>
+/**
+ * main - Entry point
+ *
+ * Return:  Always 0 (Success)
+ */
 
 int main(void)
 {
@@ -6,9 +12,9 @@ int main(void)
 
 	char Holberton[11] = "Holberton";
 
-	for (i = 0; i <= 11; i++)
+	for (i = 0; i <= 10; i++)
 	{
-		_putchar(school[i]);_
+		_putchar(school[i]);
 	}
 	_putchar('\n');
 
