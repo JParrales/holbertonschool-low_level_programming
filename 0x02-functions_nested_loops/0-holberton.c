@@ -12,7 +12,7 @@ int main(void)
 
 	char Holberton[11] = "Holberton";
 
-	for (i = 0; i <= 10; i++)
+	for (i = 0; i <= 8; i++)
 	{
 		_putchar(Holberton[i]);
 	}
