@@ -14,7 +14,7 @@ void print_alphabet(void)
 
 	for (i = 0; i <= 27; i++)
 	{
-		char az[27] = "abcdefghijklmnopqrstuvwxyz\n";
+		char az[26] = "abcdefghijklmnopqrstuvwxyz\n";
 		_putchar(az[i]);
 	}
 }
