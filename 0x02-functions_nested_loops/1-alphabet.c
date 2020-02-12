@@ -15,6 +15,7 @@ void print_alphabet(void)
 	for (i = 0; i <= 26; i++)
 	{
 		char az[27] = "abcdefghijklmnopqrstuvwxyz\n";
+
 		_putchar(az[i]);
 	}
 }
