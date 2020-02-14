@@ -58,6 +58,10 @@ int main(void)
 		{
 			_putchar(' ');
 		}
+		else
+		{
+			_putchar('\n');
+		}
 	}
 	return (0);
 }
