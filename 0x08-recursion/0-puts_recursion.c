@@ -1,8 +1,8 @@
 #include "holberton.h"
 
 /**
- * void _puts_recursion(char *s) - prints a string, followed by a new line.
- *
+ * _puts_recursion - prints a string, followed by a new line.
+ * @s: character, would be a string.
  *Return: void.
  */
 
