@@ -23,7 +23,7 @@ int _sqrt_recursion(int n)
 int cal_sqrt(int n, int x)
 {
 	if (n < x * x)
-		return(-1);
+		return (-1);
 
 	if (n == x * x)
 		return (x);
