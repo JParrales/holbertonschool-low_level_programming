@@ -1,2 +1,2 @@
-# holbertonschool-low_level_programming
+# 0x0B. C - malloc, free.
 This is a *low level programing repository*
