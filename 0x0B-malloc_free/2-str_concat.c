@@ -16,21 +16,18 @@ char *str_concat(char *s1, char *s2)
 	char *str;
 
 	if (s1 == NULL)
-	{
-		s1 = malloc(sizeof(char));
-		*s1 = 0;
-	}
+		*s1 = ' ';
 
 	if (s2 == NULL)
-	{
-		s2 = alloc(sizeof(char));
-		*s2 = 0;
-	}
+		*s2 = ' ';
 
 	len1 = _length(s1);
 	len2 = _length(s2);
 
 	str = malloc((len1 + len2) * sizeof(char) + 1);
+
+	if (str == NULL)
+		return (NULL);
 
 	for (i = 0; i < len1; i++)
 		str[i] = s1[i];
