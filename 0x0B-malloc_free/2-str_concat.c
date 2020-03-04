@@ -1,4 +1,5 @@
 #include <stdlib.h>
+#include "holberton.h"
 
 int _length(char *str);
 
@@ -16,10 +17,10 @@ char *str_concat(char *s1, char *s2)
 	char *str;
 
 	if (s1 == NULL)
-		*s1 = 0;
+		*s1 = ' ';
 
 	if (s2 == NULL)
-		*s2 = 0;
+		*s2 = ' ';
 
 	len1 = _length(s1);
 	len2 = _length(s2);
@@ -31,6 +32,8 @@ char *str_concat(char *s1, char *s2)
 
 	for (j = 0; j < len2; j++)
 		str[i + j] = s2[j];
+
+	str[i + j] = _putchar(0);
 
 	return (str);
 }
