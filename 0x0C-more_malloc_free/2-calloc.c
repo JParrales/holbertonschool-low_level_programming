@@ -1,5 +1,13 @@
 #include "holberton.h"
 
+/**
+ * _calloc - allocates memory for an array using 2 arguments.
+ * @nmemb: array.
+ * @size: size of array.
+ *
+ * Return: void.
+ */
+
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	unsigned int i;
