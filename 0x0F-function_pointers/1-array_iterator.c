@@ -2,7 +2,7 @@
 
 /**
  * array_iterator - executes a function on each element of an array.
- * @narray: pointer array.
+ * @array: pointer array.
  * @size: size of array.
  * @action: pointer to function.
  *
