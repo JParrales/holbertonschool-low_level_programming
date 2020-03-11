@@ -3,7 +3,7 @@
 char *_strcpy(char *dest, char *src);
 
 /**
- * ney_dog: creates a new dog.
+ * new_dog - creates a new dog.
  * @name: name.
  * @age: age.
  * @owner: owner.
