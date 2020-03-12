@@ -1,6 +1,13 @@
 #include "3-calc.h"
 
-int (*get_op_func(char *s))(int, int)
+/**
+ * get_op_func - Test
+ * @s: Sign
+ *
+ * Return: Pointer to function
+ */
+
+int (*get_op_func(const char *s))(int, int)
 {
 	op_t ops[] = {
 		{"+", op_add},
@@ -14,13 +21,13 @@ int (*get_op_func(char *s))(int, int)
 
 	i = 0;
 
-	while(i < 5)
+	while (i < 5)
 	{
-		if(s == ops[i].op )
-			return(ops[i].f);
+		if (ops[i].op[0] == s[0])
+			return (ops[i].f);
 
 		i++;
 	}
-	return (0);
+	return (NULL);
 }
 
