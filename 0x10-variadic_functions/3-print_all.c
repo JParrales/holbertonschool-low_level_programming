@@ -53,11 +53,12 @@ void print_all(const char * const format, ...)
 				break;
 		}
 
-		if (i != j && ing == 0)
+		j++;
+
+		if (j != i && ing == 0)
 			printf(", ");
 
-		j++;
-		ing = 0
+		ing = 0;
 
 	}
 
