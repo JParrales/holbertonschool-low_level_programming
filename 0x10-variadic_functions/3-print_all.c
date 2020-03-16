@@ -13,10 +13,13 @@ void print_all(const char * const format, ...)
 	char *varg;
 	va_list PrintList;
 
-	while (format[i] != '\0')
+	if (format == NULL)
 	{
-		i++;
+		printf("\n");
+		return;
 	}
+	while (format[i] != '\0')
+		i++;
 	va_start(PrintList, format);
 	while (j <= i)
 	{
