@@ -9,7 +9,7 @@
 
 void print_all(const char * const format, ...)
 {
-	int i = 0, j = 0;
+	int i = 0, j = 0, ing = 0;
 	char *varg;
 
 	va_list PrintList;
@@ -49,13 +49,15 @@ void print_all(const char * const format, ...)
 				break;
 
 			default:
+				ing = 1;
 				break;
 		}
 
-		if (i != j)
+		if (i != j && ing == 0)
 			printf(", ");
 
 		j++;
+		ing = 0
 
 	}
 
