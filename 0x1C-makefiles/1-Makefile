@@ -1,0 +1,13 @@
+# Macros
+
+CC = gcc
+SRC = main.c holberton.c m.h
+
+# Explicit Rules
+
+all: holberton
+
+# Implicit Rules
+
+holberton: $(SRC)
+	gcc main.c holberton.c -o holberton
