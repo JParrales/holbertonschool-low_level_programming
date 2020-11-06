@@ -9,4 +9,4 @@ SRC = main.c holberton.c
 # Implicit Rules
 
 holberton: $(SRC) m.h
-	gcc main.c holberton.c -o holberton
+	gcc $(CC) -o holberton
