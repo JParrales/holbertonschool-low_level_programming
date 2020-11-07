@@ -1,0 +1,11 @@
+# Macros
+
+CC = gcc
+SRC = main.c holberton.c
+OBJ = $(SRC:.c=.o)
+NAME = holberton
+
+# Explicit rules
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
