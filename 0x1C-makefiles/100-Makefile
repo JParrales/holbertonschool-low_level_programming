@@ -9,7 +9,7 @@ CFLAGS = -Wall -Werror -Wextra -pedantic
 
 # Explicit rules
 .PHONY: all
-all: $(OBJ)
+all: m.h $(OBJ)
 	$(CC) $(OBJ) $(CFLAGS) -o $(NAME)
 
 .PHONY: clean
