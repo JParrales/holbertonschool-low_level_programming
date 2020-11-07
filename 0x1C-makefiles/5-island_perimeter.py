@@ -1,6 +1,9 @@
 #!/usr/bin/python3
+"""Module Task 5"""
+
 
 def island_perimeter(grid):
+    """Returns the perimeter of the island described in grid"""
     p = 0
 
     for i in range(len(grid)):
